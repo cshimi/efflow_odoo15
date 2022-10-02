@@ -1,0 +1,16 @@
+/.
+/lib
+/lib/x86_64-linux-gnu
+/lib/x86_64-linux-gnu/security
+/lib/x86_64-linux-gnu/security/pam_pwquality.so
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libpam-pwquality
+/usr/share/doc/libpam-pwquality/copyright
+/usr/share/man
+/usr/share/man/man8
+/usr/share/man/man8/pam_pwquality.8.gz
+/usr/share/pam-configs
+/usr/share/pam-configs/pwquality
+/usr/share/doc/libpam-pwquality/changelog.Debian.gz

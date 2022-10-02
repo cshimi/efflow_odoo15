@@ -1,0 +1,105 @@
+2022-07-12 10:09:42,737:DEBUG:certbot.main:certbot version: 0.40.0
+2022-07-12 10:09:42,737:DEBUG:certbot.main:Arguments: ['--agree-tos', '--email', 'info@efflow.ch', '--webroot', '-w', '/var/lib/letsencrypt/', '-d', 'efflow.ch']
+2022-07-12 10:09:42,737:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#manual,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2022-07-12 10:09:42,747:DEBUG:certbot.log:Root logging level set at 20
+2022-07-12 10:09:42,747:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2022-07-12 10:09:42,747:DEBUG:certbot.plugins.selection:Requested authenticator webroot and installer None
+2022-07-12 10:09:42,748:DEBUG:certbot.plugins.selection:Single candidate plugin: * webroot
+Description: Place files in webroot directory
+Interfaces: IAuthenticator, IPlugin
+Entry point: webroot = certbot.plugins.webroot:Authenticator
+Initialized: <certbot.plugins.webroot.Authenticator object at 0x7f62542267f0>
+Prep: True
+2022-07-12 10:09:42,748:DEBUG:certbot.plugins.selection:Selected authenticator <certbot.plugins.webroot.Authenticator object at 0x7f62542267f0> and installer None
+2022-07-12 10:09:42,748:INFO:certbot.plugins.selection:Plugins selected: Authenticator webroot, Installer None
+2022-07-12 10:09:42,795:DEBUG:certbot.main:Picked account: <Account(RegistrationResource(body=Registration(key=None, contact=(), agreement=None, status=None, terms_of_service_agreed=None, only_return_existing=None, external_account_binding=None), uri='https://acme-v02.api.letsencrypt.org/acme/acct/625694706', new_authzr_uri=None, terms_of_service=None), 7f6a32f2fb32bb1950143ca44df0947b, Meta(creation_dt=datetime.datetime(2022, 7, 10, 10, 2, 13, tzinfo=<UTC>), creation_host='efflow.vps'))>
+2022-07-12 10:09:42,796:DEBUG:acme.client:Sending GET request to https://acme-v02.api.letsencrypt.org/directory.
+2022-07-12 10:09:42,797:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): acme-v02.api.letsencrypt.org:443
+2022-07-12 10:09:43,181:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "GET /directory HTTP/1.1" 200 658
+2022-07-12 10:09:43,182:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Tue, 12 Jul 2022 10:09:43 GMT
+Content-Type: application/json
+Content-Length: 658
+Connection: keep-alive
+Cache-Control: public, max-age=0, no-cache
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "CAhifk69MRk": "https://community.letsencrypt.org/t/adding-random-entries-to-the-directory/33417",
+  "keyChange": "https://acme-v02.api.letsencrypt.org/acme/key-change",
+  "meta": {
+    "caaIdentities": [
+      "letsencrypt.org"
+    ],
+    "termsOfService": "https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf",
+    "website": "https://letsencrypt.org"
+  },
+  "newAccount": "https://acme-v02.api.letsencrypt.org/acme/new-acct",
+  "newNonce": "https://acme-v02.api.letsencrypt.org/acme/new-nonce",
+  "newOrder": "https://acme-v02.api.letsencrypt.org/acme/new-order",
+  "revokeCert": "https://acme-v02.api.letsencrypt.org/acme/revoke-cert"
+}
+2022-07-12 10:09:43,186:DEBUG:certbot.cert_manager:Renewal conf file /etc/letsencrypt/renewal/efflow.ch.conf is broken. Skipping.
+2022-07-12 10:09:43,186:DEBUG:certbot.cert_manager:Traceback was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/certbot/cert_manager.py", line 382, in _search_lineages
+    candidate_lineage = storage.RenewableCert(renewal_file, cli_config)
+  File "/usr/lib/python3/dist-packages/certbot/storage.py", line 465, in __init__
+    self._check_symlinks()
+  File "/usr/lib/python3/dist-packages/certbot/storage.py", line 522, in _check_symlinks
+    raise errors.CertStorageError(
+certbot.errors.CertStorageError: expected /etc/letsencrypt/live/efflow.ch/cert.pem to be a symlink
+
+2022-07-12 10:09:43,187:DEBUG:certbot.cert_manager:Renewal conf file /etc/letsencrypt/renewal/test.efflow.ch-0001.conf is broken. Skipping.
+2022-07-12 10:09:43,187:DEBUG:certbot.cert_manager:Traceback was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/certbot/cert_manager.py", line 382, in _search_lineages
+    candidate_lineage = storage.RenewableCert(renewal_file, cli_config)
+  File "/usr/lib/python3/dist-packages/certbot/storage.py", line 465, in __init__
+    self._check_symlinks()
+  File "/usr/lib/python3/dist-packages/certbot/storage.py", line 522, in _check_symlinks
+    raise errors.CertStorageError(
+certbot.errors.CertStorageError: expected /etc/letsencrypt/live/test.efflow.ch-0001/cert.pem to be a symlink
+
+2022-07-12 10:09:43,189:DEBUG:certbot.cert_manager:Renewal conf file /etc/letsencrypt/renewal/test.efflow.ch.conf is broken. Skipping.
+2022-07-12 10:09:43,189:DEBUG:certbot.cert_manager:Traceback was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/certbot/cert_manager.py", line 382, in _search_lineages
+    candidate_lineage = storage.RenewableCert(renewal_file, cli_config)
+  File "/usr/lib/python3/dist-packages/certbot/storage.py", line 465, in __init__
+    self._check_symlinks()
+  File "/usr/lib/python3/dist-packages/certbot/storage.py", line 522, in _check_symlinks
+    raise errors.CertStorageError(
+certbot.errors.CertStorageError: expected /etc/letsencrypt/live/test.efflow.ch/cert.pem to be a symlink
+
+2022-07-12 10:09:43,190:DEBUG:certbot.log:Exiting abnormally:
+Traceback (most recent call last):
+  File "/usr/bin/certbot", line 11, in <module>
+    load_entry_point('certbot==0.40.0', 'console_scripts', 'certbot')()
+  File "/usr/lib/python3/dist-packages/certbot/main.py", line 1382, in main
+    return config.func(config, plugins)
+  File "/usr/lib/python3/dist-packages/certbot/main.py", line 1258, in certonly
+    should_get_cert, lineage = _find_cert(config, domains, certname)
+  File "/usr/lib/python3/dist-packages/certbot/main.py", line 287, in _find_cert
+    action, lineage = _find_lineage_for_domains_and_certname(config, domains, certname)
+  File "/usr/lib/python3/dist-packages/certbot/main.py", line 314, in _find_lineage_for_domains_and_certname
+    return _find_lineage_for_domains(config, domains)
+  File "/usr/lib/python3/dist-packages/certbot/main.py", line 264, in _find_lineage_for_domains
+    return _handle_identical_cert_request(config, ident_names_cert)
+  File "/usr/lib/python3/dist-packages/certbot/main.py", line 196, in _handle_identical_cert_request
+    if renewal.should_renew(config, lineage):
+  File "/usr/lib/python3/dist-packages/certbot/renewal.py", line 278, in should_renew
+    if lineage.should_autorenew():
+  File "/usr/lib/python3/dist-packages/certbot/storage.py", line 943, in should_autorenew
+    expiry = crypto_util.notAfter(self.version(
+  File "/usr/lib/python3/dist-packages/certbot/crypto_util.py", line 432, in notAfter
+    return _notAfterBefore(cert_path, crypto.X509.get_notAfter)
+  File "/usr/lib/python3/dist-packages/certbot/crypto_util.py", line 451, in _notAfterBefore
+    timestamp = method(x509)
+  File "/usr/lib/python3/dist-packages/OpenSSL/crypto.py", line 1407, in get_notAfter
+    return self._get_boundary_time(_lib.X509_get_notAfter)
+AttributeError: module 'lib' has no attribute 'X509_get_notAfter'
+2022-07-12 10:09:43,191:ERROR:certbot.log:An unexpected error occurred:

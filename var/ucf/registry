@@ -1,0 +1,4 @@
+rsyslog 	 /etc/rsyslog.d/50-default.conf
+openssh-server 	 /etc/ssh/sshd_config
+sysstat 	 /etc/default/sysstat
+postgresql-common 	 /etc/postgresql-common/createcluster.conf

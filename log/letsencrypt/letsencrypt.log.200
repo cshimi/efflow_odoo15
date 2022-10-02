@@ -1,0 +1,76 @@
+2022-07-12 06:41:32,149:DEBUG:certbot.main:certbot version: 0.40.0
+2022-07-12 06:41:32,149:DEBUG:certbot.main:Arguments: ['-q']
+2022-07-12 06:41:32,149:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#manual,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2022-07-12 06:41:32,160:DEBUG:certbot.log:Root logging level set at 30
+2022-07-12 06:41:32,160:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2022-07-12 06:41:32,162:WARNING:certbot.renewal:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/certbot/renewal.py", line 65, in _reconstitute
+    renewal_candidate = storage.RenewableCert(full_path, config)
+  File "/usr/lib/python3/dist-packages/certbot/storage.py", line 465, in __init__
+    self._check_symlinks()
+  File "/usr/lib/python3/dist-packages/certbot/storage.py", line 522, in _check_symlinks
+    raise errors.CertStorageError(
+certbot.errors.CertStorageError: expected /etc/letsencrypt/live/test.efflow.ch-0001/cert.pem to be a symlink
+2022-07-12 06:41:32,163:WARNING:certbot.renewal:Renewal configuration file /etc/letsencrypt/renewal/test.efflow.ch-0001.conf is broken. Skipping.
+2022-07-12 06:41:32,163:DEBUG:certbot.renewal:Traceback was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/certbot/renewal.py", line 65, in _reconstitute
+    renewal_candidate = storage.RenewableCert(full_path, config)
+  File "/usr/lib/python3/dist-packages/certbot/storage.py", line 465, in __init__
+    self._check_symlinks()
+  File "/usr/lib/python3/dist-packages/certbot/storage.py", line 522, in _check_symlinks
+    raise errors.CertStorageError(
+certbot.errors.CertStorageError: expected /etc/letsencrypt/live/test.efflow.ch-0001/cert.pem to be a symlink
+
+2022-07-12 06:41:32,168:DEBUG:certbot.plugins.selection:Requested authenticator <certbot.cli._Default object at 0x7f7272545dc0> and installer <certbot.cli._Default object at 0x7f7272545dc0>
+2022-07-12 06:41:32,174:WARNING:certbot.renewal:Attempting to renew cert (test.efflow.ch-0002) from /etc/letsencrypt/renewal/test.efflow.ch-0002.conf produced an unexpected error: module 'lib' has no attribute 'X509_get_notAfter'. Skipping.
+2022-07-12 06:41:32,176:DEBUG:certbot.renewal:Traceback was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/certbot/renewal.py", line 447, in handle_renewal_request
+    if should_renew(lineage_config, renewal_candidate):
+  File "/usr/lib/python3/dist-packages/certbot/renewal.py", line 278, in should_renew
+    if lineage.should_autorenew():
+  File "/usr/lib/python3/dist-packages/certbot/storage.py", line 943, in should_autorenew
+    expiry = crypto_util.notAfter(self.version(
+  File "/usr/lib/python3/dist-packages/certbot/crypto_util.py", line 432, in notAfter
+    return _notAfterBefore(cert_path, crypto.X509.get_notAfter)
+  File "/usr/lib/python3/dist-packages/certbot/crypto_util.py", line 451, in _notAfterBefore
+    timestamp = method(x509)
+  File "/usr/lib/python3/dist-packages/OpenSSL/crypto.py", line 1407, in get_notAfter
+    return self._get_boundary_time(_lib.X509_get_notAfter)
+AttributeError: module 'lib' has no attribute 'X509_get_notAfter'
+
+2022-07-12 06:41:32,176:WARNING:certbot.renewal:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/certbot/renewal.py", line 65, in _reconstitute
+    renewal_candidate = storage.RenewableCert(full_path, config)
+  File "/usr/lib/python3/dist-packages/certbot/storage.py", line 465, in __init__
+    self._check_symlinks()
+  File "/usr/lib/python3/dist-packages/certbot/storage.py", line 522, in _check_symlinks
+    raise errors.CertStorageError(
+certbot.errors.CertStorageError: expected /etc/letsencrypt/live/test.efflow.ch/cert.pem to be a symlink
+2022-07-12 06:41:32,177:WARNING:certbot.renewal:Renewal configuration file /etc/letsencrypt/renewal/test.efflow.ch.conf is broken. Skipping.
+2022-07-12 06:41:32,177:DEBUG:certbot.renewal:Traceback was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/certbot/renewal.py", line 65, in _reconstitute
+    renewal_candidate = storage.RenewableCert(full_path, config)
+  File "/usr/lib/python3/dist-packages/certbot/storage.py", line 465, in __init__
+    self._check_symlinks()
+  File "/usr/lib/python3/dist-packages/certbot/storage.py", line 522, in _check_symlinks
+    raise errors.CertStorageError(
+certbot.errors.CertStorageError: expected /etc/letsencrypt/live/test.efflow.ch/cert.pem to be a symlink
+
+2022-07-12 06:41:32,177:ERROR:certbot.renewal:All renewal attempts failed. The following certs could not be renewed:
+2022-07-12 06:41:32,177:ERROR:certbot.renewal:  /etc/letsencrypt/live/test.efflow.ch-0002/fullchain.pem (failure)
+2022-07-12 06:41:32,177:DEBUG:certbot.log:Exiting abnormally:
+Traceback (most recent call last):
+  File "/usr/bin/certbot", line 11, in <module>
+    load_entry_point('certbot==0.40.0', 'console_scripts', 'certbot')()
+  File "/usr/lib/python3/dist-packages/certbot/main.py", line 1382, in main
+    return config.func(config, plugins)
+  File "/usr/lib/python3/dist-packages/certbot/main.py", line 1287, in renew
+    renewal.handle_renewal_request(config)
+  File "/usr/lib/python3/dist-packages/certbot/renewal.py", line 486, in handle_renewal_request
+    raise errors.Error("{0} renew failure(s), {1} parse failure(s)".format(
+certbot.errors.Error: 1 renew failure(s), 2 parse failure(s)

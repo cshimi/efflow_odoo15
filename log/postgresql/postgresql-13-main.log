@@ -1,0 +1,1008 @@
+2022-10-02 08:29:41.736 UTC [929748] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 08:29:41.736 UTC [929748] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 08:35:02.555 UTC [929746] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 08:35:02.555 UTC [929746] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 08:39:56.347 UTC [868901] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 08:39:56.347 UTC [868901] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 08:44:39.904 UTC [929748] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 08:44:39.904 UTC [929748] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 08:50:00.682 UTC [929746] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 08:50:00.682 UTC [929746] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 08:55:21.468 UTC [929748] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 08:55:21.468 UTC [929748] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 08:59:38.107 UTC [929747] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 08:59:38.107 UTC [929747] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 09:04:34.206 UTC [868899] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 09:04:34.206 UTC [868899] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 09:10:10.151 UTC [868902] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 09:10:10.151 UTC [868902] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 09:14:36.165 UTC [929748] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 09:14:36.165 UTC [929748] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 09:19:56.945 UTC [929746] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 09:19:56.945 UTC [929746] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 09:24:43.597 UTC [868899] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 09:24:43.597 UTC [868899] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 09:29:34.409 UTC [929747] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 09:29:34.409 UTC [929747] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 09:34:48.254 UTC [868902] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 09:34:48.254 UTC [868902] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 09:40:15.906 UTC [929748] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 09:40:15.906 UTC [929748] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 09:44:52.870 UTC [868899] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 09:44:52.870 UTC [868899] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 09:49:53.261 UTC [929746] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 09:49:53.261 UTC [929746] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 09:54:57.490 UTC [868902] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 09:54:57.490 UTC [868902] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 10:00:33.424 UTC [868899] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 10:00:33.424 UTC [868899] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 10:04:51.313 UTC [929746] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 10:04:51.313 UTC [929746] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 10:10:12.094 UTC [929748] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 10:10:12.094 UTC [929748] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 10:15:06.730 UTC [868902] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 10:15:06.730 UTC [868902] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 10:19:35.433 UTC [868900] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 10:19:35.433 UTC [868900] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 10:25:10.143 UTC [929748] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 10:25:10.143 UTC [929748] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 10:29:40.171 UTC [868899] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 10:29:40.171 UTC [868899] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 10:34:47.489 UTC [929741] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 10:34:47.489 UTC [929741] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 10:39:44.825 UTC [868902] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 10:39:44.825 UTC [868902] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 10:45:20.759 UTC [868899] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 10:45:20.759 UTC [868899] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 10:49:45.444 UTC [929741] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 10:49:45.444 UTC [929741] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 10:55:06.225 UTC [929747] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 10:55:06.225 UTC [929747] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 10:59:54.052 UTC [868900] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 10:59:54.052 UTC [868900] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 11:04:43.578 UTC [929746] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 11:04:43.578 UTC [929746] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 11:09:58.673 UTC [868899] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 11:09:58.673 UTC [868899] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 11:15:25.059 UTC [929746] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 11:15:25.059 UTC [929746] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 11:19:41.694 UTC [929741] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 11:19:41.694 UTC [929741] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 11:25:02.910 UTC [929747] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 11:25:02.910 UTC [929747] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 11:30:08.235 UTC [868901] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 11:30:08.235 UTC [868901] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 11:34:37.220 UTC [868899] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 11:34:37.220 UTC [868899] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 11:40:00.969 UTC [929747] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 11:40:00.969 UTC [929747] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 11:44:41.834 UTC [868900] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 11:44:41.834 UTC [868900] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 11:49:38.280 UTC [929741] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 11:49:38.280 UTC [929741] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 11:54:46.450 UTC [868899] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 11:54:46.450 UTC [868899] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 12:00:19.790 UTC [929746] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 12:00:19.790 UTC [929746] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 12:04:36.433 UTC [929746] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 12:04:36.433 UTC [929746] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 12:09:57.207 UTC [929747] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 12:09:57.207 UTC [929747] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 12:14:55.584 UTC [868899] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 12:14:55.584 UTC [868899] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 12:19:34.571 UTC [929746] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 12:19:34.571 UTC [929746] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 12:24:55.352 UTC [929748] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 12:24:55.352 UTC [929748] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 12:30:16.459 UTC [929746] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 12:30:16.459 UTC [929746] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 12:35:04.760 UTC [868899] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 12:35:04.760 UTC [868899] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 12:39:53.846 UTC [929748] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 12:39:53.846 UTC [929748] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 12:45:09.379 UTC [868902] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 12:45:09.379 UTC [868902] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 12:49:38.134 UTC [868900] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 12:49:38.134 UTC [868900] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 12:54:51.890 UTC [929748] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 12:54:51.890 UTC [929748] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 12:59:42.753 UTC [868901] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 12:59:42.753 UTC [868901] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 13:05:18.699 UTC [868902] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 13:05:18.699 UTC [868902] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 13:09:47.460 UTC [868900] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 13:09:47.460 UTC [868900] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 13:15:10.580 UTC [929746] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 13:15:10.580 UTC [929746] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 13:19:52.073 UTC [868899] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 13:19:52.073 UTC [868899] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 13:24:48.127 UTC [929748] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 13:24:48.127 UTC [929748] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 13:29:57.218 UTC [868900] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 13:29:57.218 UTC [868900] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 13:35:29.624 UTC [929748] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 13:35:29.624 UTC [929748] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 13:39:46.264 UTC [929747] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 13:39:46.264 UTC [929747] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 13:45:07.052 UTC [929741] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 13:45:07.052 UTC [929741] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 13:50:06.639 UTC [868900] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 13:50:06.639 UTC [868900] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 13:54:35.391 UTC [868900] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 13:54:35.391 UTC [868900] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 14:00:05.118 UTC [929741] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 14:00:05.118 UTC [929741] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 14:04:40.010 UTC [868901] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 14:04:40.010 UTC [868901] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 14:09:42.481 UTC [929747] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 14:09:42.481 UTC [929747] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 14:14:44.627 UTC [868900] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 14:14:44.627 UTC [868900] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 14:20:20.564 UTC [868901] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 14:20:20.564 UTC [868901] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 14:24:40.544 UTC [929747] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 14:24:40.544 UTC [929747] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 14:30:01.271 UTC [929746] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 14:30:01.271 UTC [929746] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 14:34:53.868 UTC [868900] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 14:34:53.868 UTC [868900] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 14:39:38.871 UTC [929747] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 14:39:38.871 UTC [929747] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 14:44:58.483 UTC [868901] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 14:44:58.483 UTC [868901] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 14:50:20.365 UTC [929748] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 14:50:20.365 UTC [929748] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 14:54:36.996 UTC [929747] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 14:54:36.996 UTC [929747] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 14:59:57.773 UTC [929741] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 14:59:57.773 UTC [929741] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 15:05:07.666 UTC [868899] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 15:05:07.666 UTC [868899] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 15:09:35.115 UTC [929747] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 15:09:35.115 UTC [929747] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 15:14:55.896 UTC [929741] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 15:14:55.896 UTC [929741] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 15:19:40.969 UTC [868900] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 15:19:40.969 UTC [868900] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 15:25:16.914 UTC [868899] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 15:25:16.914 UTC [868899] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 15:29:45.680 UTC [868899] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 15:29:45.680 UTC [868899] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 15:35:14.505 UTC [929747] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 15:35:14.505 UTC [929747] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 15:39:50.508 UTC [868902] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 15:39:50.508 UTC [868902] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 15:44:51.848 UTC [929746] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 15:44:51.848 UTC [929746] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 15:49:55.132 UTC [868899] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 15:49:55.132 UTC [868899] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 15:55:31.077 UTC [868900] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 15:55:31.077 UTC [868900] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 15:59:49.892 UTC [929746] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 15:59:49.892 UTC [929746] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 16:05:10.683 UTC [929748] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 16:05:10.683 UTC [929748] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 16:10:04.334 UTC [868901] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 16:10:04.334 UTC [868901] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 16:14:48.024 UTC [929741] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 16:14:48.024 UTC [929741] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 16:20:08.796 UTC [929748] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 16:20:08.796 UTC [929748] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 16:24:37.656 UTC [868900] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 16:24:37.656 UTC [868900] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 16:29:46.161 UTC [929746] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 16:29:46.161 UTC [929746] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 16:34:42.269 UTC [868899] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 16:34:42.269 UTC [868899] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 16:40:18.324 UTC [868900] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 16:40:18.324 UTC [868900] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 16:44:44.247 UTC [929746] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 16:44:44.247 UTC [929746] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 16:50:05.027 UTC [929748] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 16:50:05.027 UTC [929748] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 16:54:51.644 UTC [868899] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 16:54:51.644 UTC [868899] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 16:59:42.380 UTC [929746] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 16:59:42.380 UTC [929746] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 17:04:56.264 UTC [868902] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 17:04:56.264 UTC [868902] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 17:10:23.879 UTC [929741] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 17:10:23.879 UTC [929741] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 17:14:40.545 UTC [929741] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 17:14:40.545 UTC [929741] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 17:20:01.319 UTC [929748] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 17:20:01.319 UTC [929748] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 17:25:05.537 UTC [868900] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 17:25:05.537 UTC [868900] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 17:29:34.293 UTC [868900] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 17:29:34.293 UTC [868900] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 17:34:59.404 UTC [929748] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 17:34:59.404 UTC [929748] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 17:39:38.860 UTC [868901] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 17:39:38.860 UTC [868901] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 17:44:36.944 UTC [929746] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 17:44:36.944 UTC [929746] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 17:49:43.495 UTC [868900] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 17:49:43.495 UTC [868900] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 17:55:18.435 UTC [929746] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 17:55:18.435 UTC [929746] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 17:59:35.063 UTC [929741] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 17:59:35.063 UTC [929741] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 18:04:55.840 UTC [929747] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 18:04:55.840 UTC [929747] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 18:09:52.671 UTC [868902] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 18:09:52.671 UTC [868902] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 18:15:28.602 UTC [868901] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 18:15:28.602 UTC [868901] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 18:19:53.907 UTC [929748] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 18:19:53.907 UTC [929748] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 18:25:14.705 UTC [929741] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 18:25:14.705 UTC [929741] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 18:30:01.976 UTC [868902] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 18:30:01.976 UTC [868902] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 18:34:52.048 UTC [929747] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 18:34:52.048 UTC [929747] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 18:40:06.826 UTC [868901] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 18:40:06.826 UTC [868901] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 18:44:35.580 UTC [868899] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 18:44:35.580 UTC [868899] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 18:49:50.238 UTC [929747] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 18:49:50.238 UTC [929747] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 18:54:40.191 UTC [868902] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 18:54:40.191 UTC [868902] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 19:00:16.129 UTC [868899] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 19:00:16.129 UTC [868899] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 19:04:44.893 UTC [868899] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 19:04:44.893 UTC [868899] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 19:10:09.004 UTC [929746] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 19:10:09.004 UTC [929746] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 19:14:49.509 UTC [868902] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 19:14:49.509 UTC [868902] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 19:19:46.347 UTC [929747] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 19:19:46.347 UTC [929747] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 19:24:54.129 UTC [868899] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 19:24:54.129 UTC [868899] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 19:30:27.852 UTC [929747] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 19:30:27.852 UTC [929747] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 19:34:44.519 UTC [929748] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 19:34:44.519 UTC [929748] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 19:40:05.296 UTC [929746] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 19:40:05.296 UTC [929746] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 19:45:03.321 UTC [868899] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 19:45:03.321 UTC [868899] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 19:49:42.632 UTC [929748] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 19:49:42.632 UTC [929748] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 19:55:03.526 UTC [929746] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 19:55:03.526 UTC [929746] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 19:59:36.636 UTC [868902] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 19:59:36.636 UTC [868902] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 20:04:40.863 UTC [929748] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 20:04:40.863 UTC [929748] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 20:09:41.258 UTC [868901] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 20:09:41.258 UTC [868901] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 20:15:17.427 UTC [868900] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 20:15:17.427 UTC [868900] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 20:19:40.284 UTC [929748] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 20:19:40.284 UTC [929748] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                
+2022-10-02 20:25:01.147 UTC [929741] odoo@efflow_database ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-10-02 20:25:01.147 UTC [929741] odoo@efflow_database STATEMENT:  
+	                    SELECT id
+	                    FROM "ir_cron"
+	                    WHERE id IN (6)
+	                    FOR NO KEY UPDATE NOWAIT
+	                

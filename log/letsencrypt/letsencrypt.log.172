@@ -1,0 +1,45 @@
+2022-07-12 12:13:49,633:DEBUG:certbot.main:certbot version: 0.40.0
+2022-07-12 12:13:49,633:DEBUG:certbot.main:Arguments: []
+2022-07-12 12:13:49,633:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#manual,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2022-07-12 12:13:49,642:DEBUG:certbot.log:Root logging level set at 20
+2022-07-12 12:13:49,642:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2022-07-12 12:13:58,172:DEBUG:certbot.storage:Removed /etc/letsencrypt/renewal/efflow.ch-0001.conf
+2022-07-12 12:13:58,172:DEBUG:certbot.storage:Removed /etc/letsencrypt/live/efflow.ch-0001/cert.pem
+2022-07-12 12:13:58,172:DEBUG:certbot.storage:Removed /etc/letsencrypt/live/efflow.ch-0001/privkey.pem
+2022-07-12 12:13:58,173:DEBUG:certbot.storage:Removed /etc/letsencrypt/live/efflow.ch-0001/chain.pem
+2022-07-12 12:13:58,173:DEBUG:certbot.storage:Removed /etc/letsencrypt/live/efflow.ch-0001/fullchain.pem
+2022-07-12 12:13:58,173:DEBUG:certbot.storage:Removed /etc/letsencrypt/live/efflow.ch-0001/README
+2022-07-12 12:13:58,173:DEBUG:certbot.storage:Removed /etc/letsencrypt/live/efflow.ch-0001
+2022-07-12 12:13:58,173:DEBUG:certbot.storage:Removed /etc/letsencrypt/archive/efflow.ch-0001
+2022-07-12 12:13:58,174:DEBUG:certbot.storage:Removed /etc/letsencrypt/renewal/efflow.ch.conf
+2022-07-12 12:13:58,174:DEBUG:certbot.storage:Unable to delete /etc/letsencrypt/live/efflow.ch/cert.pem
+2022-07-12 12:13:58,174:DEBUG:certbot.storage:Unable to delete /etc/letsencrypt/live/efflow.ch/privkey.pem
+2022-07-12 12:13:58,174:DEBUG:certbot.storage:Unable to delete /etc/letsencrypt/live/efflow.ch/chain.pem
+2022-07-12 12:13:58,174:DEBUG:certbot.storage:Unable to delete /etc/letsencrypt/live/efflow.ch/fullchain.pem
+2022-07-12 12:13:58,174:DEBUG:certbot.storage:Unable to delete /etc/letsencrypt/live/efflow.ch/README
+2022-07-12 12:13:58,174:DEBUG:certbot.storage:Unable to remove /etc/letsencrypt/live/efflow.ch; may not be empty.
+2022-07-12 12:13:58,174:DEBUG:certbot.storage:Removed /etc/letsencrypt/archive/efflow.ch
+2022-07-12 12:13:58,175:DEBUG:certbot.storage:Removed /etc/letsencrypt/renewal/test.efflow.ch-0001.conf
+2022-07-12 12:13:58,175:DEBUG:certbot.storage:Unable to delete /etc/letsencrypt/live/test.efflow.ch-0001/cert.pem
+2022-07-12 12:13:58,175:DEBUG:certbot.storage:Unable to delete /etc/letsencrypt/live/test.efflow.ch-0001/privkey.pem
+2022-07-12 12:13:58,175:DEBUG:certbot.storage:Unable to delete /etc/letsencrypt/live/test.efflow.ch-0001/chain.pem
+2022-07-12 12:13:58,175:DEBUG:certbot.storage:Unable to delete /etc/letsencrypt/live/test.efflow.ch-0001/fullchain.pem
+2022-07-12 12:13:58,175:DEBUG:certbot.storage:Unable to delete /etc/letsencrypt/live/test.efflow.ch-0001/README
+2022-07-12 12:13:58,175:DEBUG:certbot.storage:Unable to remove /etc/letsencrypt/live/test.efflow.ch-0001; may not be empty.
+2022-07-12 12:13:58,176:DEBUG:certbot.storage:Removed /etc/letsencrypt/archive/test.efflow.ch-0001
+2022-07-12 12:13:58,176:DEBUG:certbot.storage:Removed /etc/letsencrypt/renewal/test.efflow.ch-0002.conf
+2022-07-12 12:13:58,176:DEBUG:certbot.storage:Removed /etc/letsencrypt/live/test.efflow.ch-0002/cert.pem
+2022-07-12 12:13:58,176:DEBUG:certbot.storage:Removed /etc/letsencrypt/live/test.efflow.ch-0002/privkey.pem
+2022-07-12 12:13:58,176:DEBUG:certbot.storage:Removed /etc/letsencrypt/live/test.efflow.ch-0002/chain.pem
+2022-07-12 12:13:58,176:DEBUG:certbot.storage:Removed /etc/letsencrypt/live/test.efflow.ch-0002/fullchain.pem
+2022-07-12 12:13:58,177:DEBUG:certbot.storage:Removed /etc/letsencrypt/live/test.efflow.ch-0002/README
+2022-07-12 12:13:58,177:DEBUG:certbot.storage:Removed /etc/letsencrypt/live/test.efflow.ch-0002
+2022-07-12 12:13:58,177:DEBUG:certbot.storage:Removed /etc/letsencrypt/archive/test.efflow.ch-0002
+2022-07-12 12:13:58,177:DEBUG:certbot.storage:Removed /etc/letsencrypt/renewal/test.efflow.ch.conf
+2022-07-12 12:13:58,177:DEBUG:certbot.storage:Unable to delete /etc/letsencrypt/live/test.efflow.ch/cert.pem
+2022-07-12 12:13:58,177:DEBUG:certbot.storage:Unable to delete /etc/letsencrypt/live/test.efflow.ch/privkey.pem
+2022-07-12 12:13:58,177:DEBUG:certbot.storage:Unable to delete /etc/letsencrypt/live/test.efflow.ch/chain.pem
+2022-07-12 12:13:58,177:DEBUG:certbot.storage:Unable to delete /etc/letsencrypt/live/test.efflow.ch/fullchain.pem
+2022-07-12 12:13:58,177:DEBUG:certbot.storage:Unable to delete /etc/letsencrypt/live/test.efflow.ch/README
+2022-07-12 12:13:58,177:DEBUG:certbot.storage:Unable to remove /etc/letsencrypt/live/test.efflow.ch; may not be empty.
+2022-07-12 12:13:58,178:DEBUG:certbot.storage:Removed /etc/letsencrypt/archive/test.efflow.ch

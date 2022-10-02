@@ -1,0 +1,8 @@
+0b49f6b05c71c34f7f456ed7a9ac233b  usr/bin/isql
+d4e96f21051313989cdf8417352a0729  usr/bin/iusql
+2c012c0b2753e056d66a1e869b500e6a  usr/share/doc/unixodbc/AUTHORS
+52c87adc40254cf851ba7a2f0a0159bc  usr/share/doc/unixodbc/NEWS.gz
+08f6da83897bbe4b332eb2af04fab073  usr/share/doc/unixodbc/README
+d728c490223d3e2e48fea88d74b125cf  usr/share/doc/unixodbc/copyright
+1d717eecbb8bf7d03b50e3b0e88a9f31  usr/share/man/man1/isql.1.gz
+bb62fc1a1ce8e519f9fe34b2156ef60d  usr/share/man/man7/unixODBC.7.gz

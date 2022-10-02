@@ -1,0 +1,11 @@
+2022-07-12 14:21:05,608:DEBUG:certbot.main:certbot version: 0.40.0
+2022-07-12 14:21:05,609:DEBUG:certbot.main:Arguments: []
+2022-07-12 14:21:05,609:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#manual,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2022-07-12 14:21:05,619:DEBUG:certbot.log:Root logging level set at 20
+2022-07-12 14:21:05,620:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2022-07-12 14:21:05,625:DEBUG:certbot.plugins.selection:Requested authenticator <certbot.cli._Default object at 0x7f9fcee32520> and installer <certbot.cli._Default object at 0x7f9fcee32520>
+2022-07-12 14:21:05,625:DEBUG:certbot.cli:Var deploy_hook=systemctl reload nginx (set by user).
+2022-07-12 14:21:05,625:DEBUG:certbot.cli:Var renew_hook={'deploy_hook'} (set by user).
+2022-07-12 14:21:05,635:INFO:certbot.renewal:Cert not yet due for renewal
+2022-07-12 14:21:05,635:DEBUG:certbot.plugins.selection:Requested authenticator webroot and installer None
+2022-07-12 14:21:05,635:DEBUG:certbot.renewal:no renewal failures

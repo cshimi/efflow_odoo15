@@ -1,0 +1,4 @@
+a57e17aff1f4beaf4d15d061542345fb  lib/x86_64-linux-gnu/security/pam_pwquality.so
+085e6b71954ea87a9beb07bf23ca796a  usr/share/doc/libpam-pwquality/copyright
+72e847eee475f5193d885ed5b8d48812  usr/share/man/man8/pam_pwquality.8.gz
+641f10542f7f51d95010cb657e6e91aa  usr/share/pam-configs/pwquality

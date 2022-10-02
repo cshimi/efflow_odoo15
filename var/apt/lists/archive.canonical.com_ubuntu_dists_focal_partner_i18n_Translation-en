@@ -1,0 +1,18 @@
+Package: adobe-flash-properties-gtk
+Description-md5: 7b537904229139630b0f41e02ac7152c
+Description-en: GTK+ control panel for Adobe Flash Player plugin (transitional package)
+ This is a transitional package to ensure that the EOL Flash Player is
+ uninstalled. It can be safely removed.
+
+Package: adobe-flash-properties-kde
+Description-md5: 981d22ddcbc0a4d6afb4114f2ce8125c
+Description-en: KDE control panel Adobe Flash Player plugin (transitional package)
+ This is a transitional package to ensure that upgrades work correctly.
+ It can be safely removed
+
+Package: adobe-flashplugin
+Description-md5: 0abdac8e2434736409e3ce17b450fce0
+Description-en: Adobe Flash Player plugin (transitional package)
+ This is a transitional package to ensure that the EOL Flash Player is
+ uninstalled. It can be safely removed.
+

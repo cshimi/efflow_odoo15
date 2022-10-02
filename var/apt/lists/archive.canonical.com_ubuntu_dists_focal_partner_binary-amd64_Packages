@@ -1,0 +1,51 @@
+Package: adobe-flash-properties-gtk
+Source: adobe-flashplugin
+Priority: optional
+Section: web
+Installed-Size: 13
+Maintainer: DL-Flash Player Ubuntu <FlashPlayerUbuntu@adobe.com>
+Architecture: amd64
+Version: 1:20201231.1-0ubuntu0.20.04.1
+Provides: adobe-flash-properties
+Filename: pool/partner/a/adobe-flashplugin/adobe-flash-properties-gtk_20201231.1-0ubuntu0.20.04.1_amd64.deb
+Size: 6956
+MD5sum: 2394c5a7ead15db79d8cf91827250876
+SHA1: 8eca703e1ad645a51528707e33c6f0f65f2f7ed4
+SHA256: 44f3daac9ba382fbbafefebcdbd2d8e744e1ebf516599d694191ec794521a089
+Description: GTK+ control panel for Adobe Flash Player plugin (transitional package)
+Description-md5: 7b537904229139630b0f41e02ac7152c
+
+Package: adobe-flash-properties-kde
+Source: adobe-flashplugin
+Priority: optional
+Section: web
+Installed-Size: 13
+Maintainer: DL-Flash Player Ubuntu <FlashPlayerUbuntu@adobe.com>
+Architecture: amd64
+Version: 1:20201231.1-0ubuntu0.20.04.1
+Filename: pool/partner/a/adobe-flashplugin/adobe-flash-properties-kde_20201231.1-0ubuntu0.20.04.1_amd64.deb
+Size: 6948
+MD5sum: a2cd57d3328a511326f3e06bcf6024d1
+SHA1: def1d089ad1d953c92522692d209c35b3cbc4a85
+SHA256: e6f0c67c91910de626976ad78bd707538a60a2f672f9aecc35b4fc79d3c54f42
+Description: KDE control panel Adobe Flash Player plugin (transitional package)
+Description-md5: 981d22ddcbc0a4d6afb4114f2ce8125c
+
+Package: adobe-flashplugin
+Priority: optional
+Section: web
+Installed-Size: 17
+Maintainer: DL-Flash Player Ubuntu <FlashPlayerUbuntu@adobe.com>
+Architecture: amd64
+Version: 1:20201231.1-0ubuntu0.20.04.1
+Replaces: flashplugin (<< 6)
+Provides: flashplugin-nonfree
+Conflicts: flashplayer-mozilla, flashplugin (<< 6), flashplugin-downloader, flashplugin-installer, xfs (<< 1:1.0.1-5)
+Filename: pool/partner/a/adobe-flashplugin/adobe-flashplugin_20201231.1-0ubuntu0.20.04.1_amd64.deb
+Size: 7168
+MD5sum: 6c07c5fb9187e0d3378325a2ecd679f5
+SHA1: a9d1462171d8e522222722c7b54d8917ef2a13aa
+SHA256: 376b5ff08995e6abe7e7f5de65e0398f31975402585a997bef396966f935807d
+Description: Adobe Flash Player plugin (transitional package)
+Description-md5: 0abdac8e2434736409e3ce17b450fce0
+

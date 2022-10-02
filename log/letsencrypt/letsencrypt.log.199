@@ -1,0 +1,332 @@
+2022-07-12 09:29:58,767:DEBUG:certbot.main:certbot version: 0.40.0
+2022-07-12 09:29:58,767:DEBUG:certbot.main:Arguments: ['--agree-tos', '--email', 'contact@codingdodo.com', '--webroot', '-w', '/var/lib/letsencrypt/', '-d', 'odoo-15.codingdodo.com']
+2022-07-12 09:29:58,767:DEBUG:certbot.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#manual,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2022-07-12 09:29:58,778:DEBUG:certbot.log:Root logging level set at 20
+2022-07-12 09:29:58,778:INFO:certbot.log:Saving debug log to /var/log/letsencrypt/letsencrypt.log
+2022-07-12 09:29:58,779:DEBUG:certbot.plugins.selection:Requested authenticator webroot and installer None
+2022-07-12 09:29:58,779:DEBUG:certbot.plugins.selection:Single candidate plugin: * webroot
+Description: Place files in webroot directory
+Interfaces: IAuthenticator, IPlugin
+Entry point: webroot = certbot.plugins.webroot:Authenticator
+Initialized: <certbot.plugins.webroot.Authenticator object at 0x7f6fabf0e820>
+Prep: True
+2022-07-12 09:29:58,779:DEBUG:certbot.plugins.selection:Selected authenticator <certbot.plugins.webroot.Authenticator object at 0x7f6fabf0e820> and installer None
+2022-07-12 09:29:58,779:INFO:certbot.plugins.selection:Plugins selected: Authenticator webroot, Installer None
+2022-07-12 09:29:58,831:DEBUG:certbot.main:Picked account: <Account(RegistrationResource(body=Registration(key=None, contact=(), agreement=None, status=None, terms_of_service_agreed=None, only_return_existing=None, external_account_binding=None), uri='https://acme-v02.api.letsencrypt.org/acme/acct/625694706', new_authzr_uri=None, terms_of_service=None), 7f6a32f2fb32bb1950143ca44df0947b, Meta(creation_dt=datetime.datetime(2022, 7, 10, 10, 2, 13, tzinfo=<UTC>), creation_host='efflow.vps'))>
+2022-07-12 09:29:58,832:DEBUG:acme.client:Sending GET request to https://acme-v02.api.letsencrypt.org/directory.
+2022-07-12 09:29:58,834:DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): acme-v02.api.letsencrypt.org:443
+2022-07-12 09:29:59,232:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "GET /directory HTTP/1.1" 200 658
+2022-07-12 09:29:59,232:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Tue, 12 Jul 2022 09:29:59 GMT
+Content-Type: application/json
+Content-Length: 658
+Connection: keep-alive
+Cache-Control: public, max-age=0, no-cache
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "XAxaB30f3zU": "https://community.letsencrypt.org/t/adding-random-entries-to-the-directory/33417",
+  "keyChange": "https://acme-v02.api.letsencrypt.org/acme/key-change",
+  "meta": {
+    "caaIdentities": [
+      "letsencrypt.org"
+    ],
+    "termsOfService": "https://letsencrypt.org/documents/LE-SA-v1.2-November-15-2017.pdf",
+    "website": "https://letsencrypt.org"
+  },
+  "newAccount": "https://acme-v02.api.letsencrypt.org/acme/new-acct",
+  "newNonce": "https://acme-v02.api.letsencrypt.org/acme/new-nonce",
+  "newOrder": "https://acme-v02.api.letsencrypt.org/acme/new-order",
+  "revokeCert": "https://acme-v02.api.letsencrypt.org/acme/revoke-cert"
+}
+2022-07-12 09:29:59,233:DEBUG:certbot.cert_manager:Renewal conf file /etc/letsencrypt/renewal/test.efflow.ch-0001.conf is broken. Skipping.
+2022-07-12 09:29:59,234:DEBUG:certbot.cert_manager:Traceback was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/certbot/cert_manager.py", line 382, in _search_lineages
+    candidate_lineage = storage.RenewableCert(renewal_file, cli_config)
+  File "/usr/lib/python3/dist-packages/certbot/storage.py", line 465, in __init__
+    self._check_symlinks()
+  File "/usr/lib/python3/dist-packages/certbot/storage.py", line 522, in _check_symlinks
+    raise errors.CertStorageError(
+certbot.errors.CertStorageError: expected /etc/letsencrypt/live/test.efflow.ch-0001/cert.pem to be a symlink
+
+2022-07-12 09:29:59,237:DEBUG:certbot.cert_manager:Renewal conf file /etc/letsencrypt/renewal/test.efflow.ch.conf is broken. Skipping.
+2022-07-12 09:29:59,237:DEBUG:certbot.cert_manager:Traceback was:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/certbot/cert_manager.py", line 382, in _search_lineages
+    candidate_lineage = storage.RenewableCert(renewal_file, cli_config)
+  File "/usr/lib/python3/dist-packages/certbot/storage.py", line 465, in __init__
+    self._check_symlinks()
+  File "/usr/lib/python3/dist-packages/certbot/storage.py", line 522, in _check_symlinks
+    raise errors.CertStorageError(
+certbot.errors.CertStorageError: expected /etc/letsencrypt/live/test.efflow.ch/cert.pem to be a symlink
+
+2022-07-12 09:29:59,237:INFO:certbot.main:Obtaining a new certificate
+2022-07-12 09:29:59,398:DEBUG:certbot.crypto_util:Generating key (2048 bits): /etc/letsencrypt/keys/0003_key-certbot.pem
+2022-07-12 09:29:59,401:DEBUG:certbot.crypto_util:Creating CSR: /etc/letsencrypt/csr/0003_csr-certbot.pem
+2022-07-12 09:29:59,402:DEBUG:acme.client:Requesting fresh nonce
+2022-07-12 09:29:59,402:DEBUG:acme.client:Sending HEAD request to https://acme-v02.api.letsencrypt.org/acme/new-nonce.
+2022-07-12 09:29:59,530:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "HEAD /acme/new-nonce HTTP/1.1" 200 0
+2022-07-12 09:29:59,530:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Tue, 12 Jul 2022 09:29:59 GMT
+Connection: keep-alive
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 0101JOH0C6bDNFlb9ax-ORaId-6a7BqN7ssfDx7PvD9CsRM
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+
+2022-07-12 09:29:59,530:DEBUG:acme.client:Storing nonce: 0101JOH0C6bDNFlb9ax-ORaId-6a7BqN7ssfDx7PvD9CsRM
+2022-07-12 09:29:59,531:DEBUG:acme.client:JWS payload:
+b'{\n  "identifiers": [\n    {\n      "type": "dns",\n      "value": "odoo-15.codingdodo.com"\n    }\n  ]\n}'
+2022-07-12 09:29:59,533:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/new-order:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvNjI1Njk0NzA2IiwgIm5vbmNlIjogIjAxMDFKT0gwQzZiRE5GbGI5YXgtT1JhSWQtNmE3QnFON3NzZkR4N1B2RDlDc1JNIiwgInVybCI6ICJodHRwczovL2FjbWUtdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9uZXctb3JkZXIifQ",
+  "signature": "qjguWZpznw73e2wbIt4ek39nD5_x9GKaF3EFBC_N8aDZruU22W2HPL8Tvz-oMsAUpJEFJXMmHGL3oHEAa6K8oMSz35xZPTBCg1T8Qd8O7NcIFnr-dR1ktZqkDVR0EWAiKUuHffrNP2RHQsMRZMI3EI0ZqHmaV8czfIHvHCa5vL7BofZk837kVbGb15HDz4XTZaW0WU9tDDBpZbRFS4-F5fqCNNjjf3FX8kyz3k_udWhGXjEi6xde8E_CALpHNeZdGxjUqNp1rkPzpiW5lx96PHOgRi4wxjQNceU0KcA8Y_vRspc_iMQXlB-u0I8uAnXUhlgN-QTUPOZDTRC8mLQNnw",
+  "payload": "ewogICJpZGVudGlmaWVycyI6IFsKICAgIHsKICAgICAgInR5cGUiOiAiZG5zIiwKICAgICAgInZhbHVlIjogIm9kb28tMTUuY29kaW5nZG9kby5jb20iCiAgICB9CiAgXQp9"
+}
+2022-07-12 09:29:59,961:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/new-order HTTP/1.1" 201 347
+2022-07-12 09:29:59,961:DEBUG:acme.client:Received response:
+HTTP 201
+Server: nginx
+Date: Tue, 12 Jul 2022 09:29:59 GMT
+Content-Type: application/json
+Content-Length: 347
+Connection: keep-alive
+Boulder-Requester: 625694706
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Location: https://acme-v02.api.letsencrypt.org/acme/order/625694706/106060065636
+Replay-Nonce: 0101b5QTuLnK87UNy93klazdVLZaFLhooVq2GH53ZV6rg08
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "status": "pending",
+  "expires": "2022-07-19T09:29:59Z",
+  "identifiers": [
+    {
+      "type": "dns",
+      "value": "odoo-15.codingdodo.com"
+    }
+  ],
+  "authorizations": [
+    "https://acme-v02.api.letsencrypt.org/acme/authz-v3/129690281596"
+  ],
+  "finalize": "https://acme-v02.api.letsencrypt.org/acme/finalize/625694706/106060065636"
+}
+2022-07-12 09:29:59,962:DEBUG:acme.client:Storing nonce: 0101b5QTuLnK87UNy93klazdVLZaFLhooVq2GH53ZV6rg08
+2022-07-12 09:29:59,962:DEBUG:acme.client:JWS payload:
+b''
+2022-07-12 09:29:59,963:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/authz-v3/129690281596:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvNjI1Njk0NzA2IiwgIm5vbmNlIjogIjAxMDFiNVFUdUxuSzg3VU55OTNrbGF6ZFZMWmFGTGhvb1ZxMkdINTNaVjZyZzA4IiwgInVybCI6ICJodHRwczovL2FjbWUtdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9hdXRoei12My8xMjk2OTAyODE1OTYifQ",
+  "signature": "AMMnBmTzIP1u_-GroiZPAeWEmzTrjMnldMmgSF12J6D_2FzcMXlHdQz5KdITdUc0tMUpx_lqcZqJozUj8tWvst38nAqGq8SqszGPfKJcvuTloowor7I5hCoRSEKjf0MU0ljOKugQzpYXXy4TyV9czQD864HHKR-3mZvEf6LbujLSk1SbU4UW7Wk_x-ZXJXYuSRWjcQqK_tpSPh8-tQCsjbCX5c_7NGMe08omwhTALpogmFvLFNw6vARBdb1XFh4BYJlwNpm8cxNwm2BjiopoiP-Ly_uFRApUAdKyE4HhMYsICRxr-L5LygXze5wchDHVOcbtmbmbTNAIp0-HsRthiA",
+  "payload": ""
+}
+2022-07-12 09:30:00,130:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/authz-v3/129690281596 HTTP/1.1" 200 806
+2022-07-12 09:30:00,130:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Tue, 12 Jul 2022 09:30:00 GMT
+Content-Type: application/json
+Content-Length: 806
+Connection: keep-alive
+Boulder-Requester: 625694706
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index"
+Replay-Nonce: 01010OSQEpX-S3GOaM-634M6hVnahqeSJhvXa0nw0gzuRig
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "identifier": {
+    "type": "dns",
+    "value": "odoo-15.codingdodo.com"
+  },
+  "status": "pending",
+  "expires": "2022-07-19T09:29:59Z",
+  "challenges": [
+    {
+      "type": "http-01",
+      "status": "pending",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/129690281596/Vnxdog",
+      "token": "R6ttcjnNbmiRYMnDtB4AWnHlYS6w5Hrc1Jf9mpJ_Fk0"
+    },
+    {
+      "type": "dns-01",
+      "status": "pending",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/129690281596/pPqaGQ",
+      "token": "R6ttcjnNbmiRYMnDtB4AWnHlYS6w5Hrc1Jf9mpJ_Fk0"
+    },
+    {
+      "type": "tls-alpn-01",
+      "status": "pending",
+      "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/129690281596/QXzEnA",
+      "token": "R6ttcjnNbmiRYMnDtB4AWnHlYS6w5Hrc1Jf9mpJ_Fk0"
+    }
+  ]
+}
+2022-07-12 09:30:00,130:DEBUG:acme.client:Storing nonce: 01010OSQEpX-S3GOaM-634M6hVnahqeSJhvXa0nw0gzuRig
+2022-07-12 09:30:00,131:INFO:certbot.auth_handler:Performing the following challenges:
+2022-07-12 09:30:00,131:INFO:certbot.auth_handler:http-01 challenge for odoo-15.codingdodo.com
+2022-07-12 09:30:00,131:INFO:certbot.plugins.webroot:Using the webroot path /var/lib/letsencrypt for all unmatched domains.
+2022-07-12 09:30:00,131:DEBUG:certbot.plugins.webroot:Creating root challenges validation dir at /var/lib/letsencrypt/.well-known/acme-challenge
+2022-07-12 09:30:00,132:DEBUG:certbot.plugins.webroot:Attempting to save validation to /var/lib/letsencrypt/.well-known/acme-challenge/R6ttcjnNbmiRYMnDtB4AWnHlYS6w5Hrc1Jf9mpJ_Fk0
+2022-07-12 09:30:00,133:INFO:certbot.auth_handler:Waiting for verification...
+2022-07-12 09:30:00,133:DEBUG:acme.client:JWS payload:
+b'{\n  "resource": "challenge",\n  "type": "http-01"\n}'
+2022-07-12 09:30:00,134:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/chall-v3/129690281596/Vnxdog:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvNjI1Njk0NzA2IiwgIm5vbmNlIjogIjAxMDEwT1NRRXBYLVMzR09hTS02MzRNNmhWbmFocWVTSmh2WGEwbncwZ3p1UmlnIiwgInVybCI6ICJodHRwczovL2FjbWUtdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9jaGFsbC12My8xMjk2OTAyODE1OTYvVm54ZG9nIn0",
+  "signature": "SPTz4duM9eFHbFA12-xRBc277EtpapQLtcgvj-d4QpYLvRqPJ-GCd7Xnbri5dWnIeFiWHOCxBx71PP6QGNumbIW1LNmbfNh361tfDaUjsygHFyADu2tbcZQAM6aCR4ivUqc6pvic8EaCS4bJEThrC5O7-YvxHA_imuG8H2eRT2joqc_aKX6NClbC5jA-hvEy2XP0CuwE0mF_c5UQVMmCKwawlW308gcg_IRXy7waBCvi7qb6MnBgwKEvs7Wk2TUZWDLx4afs9ZiTjhst7mgWQjWQ0tLpRFc-Ksixb_1DhOBR3kcVVj4xQlm5PELWEv0bu-WF87G6bYZb4F8q4otlvw",
+  "payload": "ewogICJyZXNvdXJjZSI6ICJjaGFsbGVuZ2UiLAogICJ0eXBlIjogImh0dHAtMDEiCn0"
+}
+2022-07-12 09:30:00,301:DEBUG:urllib3.connectionpool:https://acme-v02.api.letsencrypt.org:443 "POST /acme/chall-v3/129690281596/Vnxdog HTTP/1.1" 200 187
+2022-07-12 09:30:00,302:DEBUG:acme.client:Received response:
+HTTP 200
+Server: nginx
+Date: Tue, 12 Jul 2022 09:30:00 GMT
+Content-Type: application/json
+Content-Length: 187
+Connection: keep-alive
+Boulder-Requester: 625694706
+Cache-Control: public, max-age=0, no-cache
+Link: <https://acme-v02.api.letsencrypt.org/directory>;rel="index", <https://acme-v02.api.letsencrypt.org/acme/authz-v3/129690281596>;rel="up"
+Location: https://acme-v02.api.letsencrypt.org/acme/chall-v3/129690281596/Vnxdog
+Replay-Nonce: 0102eV6G4Yhnb7qNTfOAJM27MgVoYl_YhzGh2zFeQwNAY0M
+X-Frame-Options: DENY
+Strict-Transport-Security: max-age=604800
+
+{
+  "type": "http-01",
+  "status": "pending",
+  "url": "https://acme-v02.api.letsencrypt.org/acme/chall-v3/129690281596/Vnxdog",
+  "token": "R6ttcjnNbmiRYMnDtB4AWnHlYS6w5Hrc1Jf9mpJ_Fk0"
+}
+2022-07-12 09:30:00,302:DEBUG:acme.client:Storing nonce: 0102eV6G4Yhnb7qNTfOAJM27MgVoYl_YhzGh2zFeQwNAY0M
+2022-07-12 09:30:01,303:DEBUG:acme.client:JWS payload:
+b''
+2022-07-12 09:30:01,304:DEBUG:acme.client:Sending POST request to https://acme-v02.api.letsencrypt.org/acme/authz-v3/129690281596:
+{
+  "protected": "eyJhbGciOiAiUlMyNTYiLCAia2lkIjogImh0dHBzOi8vYWNtZS12MDIuYXBpLmxldHNlbmNyeXB0Lm9yZy9hY21lL2FjY3QvNjI1Njk0NzA2IiwgIm5vbmNlIjogIjAxMDJlVjZHNFlobmI3cU5UZk9BSk0yN01nVm9ZbF9ZaHpHaDJ6RmVRd05BWTBNIiwgInVybCI6ICJodHRwczovL2FjbWUtdjAyLmFwaS5sZXRzZW5jcnlwdC5vcmcvYWNtZS9hdXRoei12My8xMjk2OTAyODE1OTYifQ",
+  "signature": "qqtn3QuxTJZNK6wbU30rL81-xRnI9aB9EA7R65JVszC1p6aXRTW_yBeA2GO4Dp1TVcGVADX1HqHkCjL80fbL2MbzqmiHPpXPG6ccbLiLzL5KBkFTlSWxFiLmA4jIWLJ77LrF7BeMkzGlpAfe_yydoPiO-C9zlwjszGfVqMlmIgozkKZ5OZ5Idvz53NHAT9ZQPNWhVxx0G2TT8f-ig6Q-1YyMPESdm5-wdfJCUYMk4gZqICqdjXwWFZfxCMHECp0qcXkdg_7ARcQeUE4LOQsQyhCGln-HjJIJ7cHnBzB14P5OeYXOkZYM7qL3qLa5G4-xudwTt3h4t5RXjrpAgicr5Q",
+  "payload": ""
+}
+2022-07-12 09:30:01,411:DEBUG:certbot.error_handler:Encountered exception:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/certbot/auth_handler.py", line 91, in handle_authorizations
+    self._poll_authorizations(authzrs, max_retries, best_effort)
+  File "/usr/lib/python3/dist-packages/certbot/auth_handler.py", line 142, in _poll_authorizations
+    authzrs_to_check = {index: self.acme.poll(authzr) for index, (authzr, _)
+  File "/usr/lib/python3/dist-packages/certbot/auth_handler.py", line 142, in <dictcomp>
+    authzrs_to_check = {index: self.acme.poll(authzr) for index, (authzr, _)
+  File "/usr/lib/python3/dist-packages/acme/client.py", line 688, in poll
+    response = self._post_as_get(authzr.uri)
+  File "/usr/lib/python3/dist-packages/acme/client.py", line 785, in _post_as_get
+    return self._post(*new_args, **kwargs)
+  File "/usr/lib/python3/dist-packages/acme/client.py", line 95, in _post
+    return self.net.post(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/acme/client.py", line 1171, in post
+    return self._post_once(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/acme/client.py", line 1183, in _post_once
+    response = self._send_request('POST', url, data=data, **kwargs)
+  File "/usr/lib/python3/dist-packages/acme/client.py", line 1088, in _send_request
+    response = self.session.request(method, url, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/lib/python3.8/dist-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/lib/python3.8/dist-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/local/lib/python3.8/dist-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.8/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.8/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt
+
+2022-07-12 09:30:01,411:DEBUG:certbot.error_handler:Calling registered functions
+2022-07-12 09:30:01,411:INFO:certbot.auth_handler:Cleaning up challenges
+2022-07-12 09:30:01,411:DEBUG:certbot.plugins.webroot:Removing /var/lib/letsencrypt/.well-known/acme-challenge/R6ttcjnNbmiRYMnDtB4AWnHlYS6w5Hrc1Jf9mpJ_Fk0
+2022-07-12 09:30:01,411:DEBUG:certbot.plugins.webroot:All challenges cleaned up
+2022-07-12 09:30:01,412:ERROR:certbot.log:Exiting abnormally:
+Traceback (most recent call last):
+  File "/usr/bin/certbot", line 11, in <module>
+    load_entry_point('certbot==0.40.0', 'console_scripts', 'certbot')()
+  File "/usr/lib/python3/dist-packages/certbot/main.py", line 1382, in main
+    return config.func(config, plugins)
+  File "/usr/lib/python3/dist-packages/certbot/main.py", line 1265, in certonly
+    lineage = _get_and_save_cert(le_client, config, domains, certname, lineage)
+  File "/usr/lib/python3/dist-packages/certbot/main.py", line 121, in _get_and_save_cert
+    lineage = le_client.obtain_and_enroll_certificate(domains, certname)
+  File "/usr/lib/python3/dist-packages/certbot/client.py", line 417, in obtain_and_enroll_certificate
+    cert, chain, key, _ = self.obtain_certificate(domains)
+  File "/usr/lib/python3/dist-packages/certbot/client.py", line 348, in obtain_certificate
+    orderr = self._get_order_and_authorizations(csr.data, self.config.allow_subset_of_names)
+  File "/usr/lib/python3/dist-packages/certbot/client.py", line 396, in _get_order_and_authorizations
+    authzr = self.auth_handler.handle_authorizations(orderr, best_effort)
+  File "/usr/lib/python3/dist-packages/certbot/auth_handler.py", line 91, in handle_authorizations
+    self._poll_authorizations(authzrs, max_retries, best_effort)
+  File "/usr/lib/python3/dist-packages/certbot/auth_handler.py", line 142, in _poll_authorizations
+    authzrs_to_check = {index: self.acme.poll(authzr) for index, (authzr, _)
+  File "/usr/lib/python3/dist-packages/certbot/auth_handler.py", line 142, in <dictcomp>
+    authzrs_to_check = {index: self.acme.poll(authzr) for index, (authzr, _)
+  File "/usr/lib/python3/dist-packages/acme/client.py", line 688, in poll
+    response = self._post_as_get(authzr.uri)
+  File "/usr/lib/python3/dist-packages/acme/client.py", line 785, in _post_as_get
+    return self._post(*new_args, **kwargs)
+  File "/usr/lib/python3/dist-packages/acme/client.py", line 95, in _post
+    return self.net.post(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/acme/client.py", line 1171, in post
+    return self._post_once(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/acme/client.py", line 1183, in _post_once
+    response = self._send_request('POST', url, data=data, **kwargs)
+  File "/usr/lib/python3/dist-packages/acme/client.py", line 1088, in _send_request
+    response = self.session.request(method, url, *args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/local/lib/python3.8/dist-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/lib/python3.8/dist-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/local/lib/python3.8/dist-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.8/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.8/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt

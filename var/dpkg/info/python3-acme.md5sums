@@ -1,0 +1,17 @@
+581a2f66fccbc14d1c2801b07e2b3e30  usr/lib/python3/dist-packages/acme-1.1.0.egg-info/PKG-INFO
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3/dist-packages/acme-1.1.0.egg-info/dependency_links.txt
+96f8a30283afa35e90861c9e8983d3b2  usr/lib/python3/dist-packages/acme-1.1.0.egg-info/requires.txt
+b25d4a0c4b974243a662fbe01fcc236c  usr/lib/python3/dist-packages/acme-1.1.0.egg-info/top_level.txt
+bb68d659c5423b6025fac190503a2ad1  usr/lib/python3/dist-packages/acme/__init__.py
+1e48782f6f75b87b80ade8b12953f8d7  usr/lib/python3/dist-packages/acme/challenges.py
+fe5e2ddd440097ffb6aa88cd273a43b8  usr/lib/python3/dist-packages/acme/client.py
+38e3a429d83d3c13b75856288bb9bb8b  usr/lib/python3/dist-packages/acme/crypto_util.py
+0b4b1eaf22a479f8c7e4235ed93e953a  usr/lib/python3/dist-packages/acme/errors.py
+38bea82a25ed5dfbf9cbfe353c431218  usr/lib/python3/dist-packages/acme/fields.py
+b82b93e0a447259c3bb99b39de57913f  usr/lib/python3/dist-packages/acme/jws.py
+d38698faf05a3ab5539dd2db3aa20a18  usr/lib/python3/dist-packages/acme/magic_typing.py
+2ef1af467c7d717a784fe4030fb47096  usr/lib/python3/dist-packages/acme/messages.py
+b0e6d2cbd7b6c1e0a668f2c1be2baba5  usr/lib/python3/dist-packages/acme/standalone.py
+380d309bad47ee641950e5252e14ec2a  usr/lib/python3/dist-packages/acme/util.py
+49118d29c0837c571b9732dce79fb7d5  usr/share/doc/python3-acme/changelog.Debian.gz
+d8cbb130110eeab2cd85336401c9bd63  usr/share/doc/python3-acme/copyright

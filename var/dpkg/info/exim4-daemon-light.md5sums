@@ -1,0 +1,5 @@
+fe3a9ed9e3b40f8bc93c585272ed847a  usr/sbin/exim4
+5f254c019b7103756c72a798ce6769b9  usr/share/bug/exim4-daemon-light/script
+929279d1e7e3b1b6c2aa22b2aee3f9f5  usr/share/doc/exim4-daemon-light/EDITME.exim4-light.gz
+1cc887a9de38e1a4045e7ba7f81a797e  usr/share/doc/exim4-daemon-light/copyright
+eb851282f6c652cbe08fbb2bf53fe171  usr/share/lintian/overrides/exim4-daemon-light

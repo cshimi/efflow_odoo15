@@ -1,0 +1,13 @@
+bcf3e3c3e642a1de6eff7628c1f60c5f  usr/lib/python3/dist-packages/zope.hookable-5.0.0-nspkg.pth
+ef31116bc9a44662810a3809368f0894  usr/lib/python3/dist-packages/zope.hookable-5.0.0.egg-info/PKG-INFO
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3/dist-packages/zope.hookable-5.0.0.egg-info/dependency_links.txt
+90b425bf5a228d74998925659a5e2ebb  usr/lib/python3/dist-packages/zope.hookable-5.0.0.egg-info/namespace_packages.txt
+68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3/dist-packages/zope.hookable-5.0.0.egg-info/not-zip-safe
+2c79f2264ad06e135992beeccb718443  usr/lib/python3/dist-packages/zope.hookable-5.0.0.egg-info/requires.txt
+90b425bf5a228d74998925659a5e2ebb  usr/lib/python3/dist-packages/zope.hookable-5.0.0.egg-info/top_level.txt
+0aa0fd306e00aaf68c572e59dcf336bf  usr/lib/python3/dist-packages/zope/hookable/__init__.py
+6c029519c1ffe7ccebb9420e83cfac22  usr/lib/python3/dist-packages/zope/hookable/_zope_hookable.cpython-38-x86_64-linux-gnu.so
+9f51e2bf403fe95011b1b70995647fe0  usr/lib/python3/dist-packages/zope/hookable/tests/__init__.py
+d7a3aa01d1ad5ff4af01092fcc47eb46  usr/lib/python3/dist-packages/zope/hookable/tests/test_hookable.py
+f5f96e6c68c55cdd241ac95a02a778cc  usr/share/doc/python3-zope.hookable/changelog.Debian.gz
+25664bc9e56c22d1208f9860d5c9427f  usr/share/doc/python3-zope.hookable/copyright

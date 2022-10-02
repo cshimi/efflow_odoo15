@@ -1,0 +1,13 @@
+87a45da619f1c4a552600576f67b2c73  usr/lib/x86_64-linux-gnu/libsamba-util.so.0.0.1
+8a467eb490d3e84461ac250286842410  usr/lib/x86_64-linux-gnu/libwbclient.so.0.15
+912ab25f6830e977a4c53746424a9a2a  usr/lib/x86_64-linux-gnu/samba/libgenrand.so.0
+3807dcbed71c9c24bb9cdcabfdbb225f  usr/lib/x86_64-linux-gnu/samba/libiov-buf.so.0
+917a23f8763a51c0115ac6ce4c298726  usr/lib/x86_64-linux-gnu/samba/libreplace.so.0
+758ef9416a77ebc16cd667c824e3bf13  usr/lib/x86_64-linux-gnu/samba/libsamba-debug.so.0
+785fb1900cf66d1095d585c462f5f81d  usr/lib/x86_64-linux-gnu/samba/libsocket-blocking.so.0
+486a0d6fd0164b629049b51360ca2784  usr/lib/x86_64-linux-gnu/samba/libsys-rw.so.0
+fa98127d609925d9f7d4c5a9b86813bc  usr/lib/x86_64-linux-gnu/samba/libtime-basic.so.0
+c3b2f0b30b23b199b445e9b0bffd8b2c  usr/lib/x86_64-linux-gnu/samba/libwinbind-client.so.0
+2160b044fb8cb04b728cdf2ca9329f9d  usr/share/doc/libwbclient0/NEWS.Debian.gz
+409e9b51aa8c53908b4afab6c3451d3c  usr/share/doc/libwbclient0/changelog.Debian.gz
+17dd6cd5aa9c6987d872adea393ccad8  usr/share/doc/libwbclient0/copyright

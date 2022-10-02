@@ -1,0 +1,6 @@
+f627a3023dbf08aba010b0521c1454db  usr/lib/x86_64-linux-gnu/perl5/5.30/Term/ReadKey.pm
+696becc0fe12dd2965803bacee7195cf  usr/lib/x86_64-linux-gnu/perl5/5.30/auto/Term/ReadKey/ReadKey.so
+c332dabdd98394f784f992ce898fb74d  usr/share/doc/libterm-readkey-perl/changelog.Debian.gz
+ec14ea0419203a7f36c00c2fbf70cc54  usr/share/doc/libterm-readkey-perl/copyright
+82c9038f795a18f194987c85920db96c  usr/share/doc/libterm-readkey-perl/examples/test.pl.gz
+45f9524a08e495c4b9f9f2b83e770d05  usr/share/man/man3/Term::ReadKey.3pm.gz
